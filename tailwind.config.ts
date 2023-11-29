@@ -15,10 +15,14 @@ const config: Config = {
       },
     },
     colors: {
-      primary: '#990000',
-      secondary: '#2A2B27',
-      light: '#EDEAE8',
-      dark: '#D9D9D9',
+      primary: {
+        main: '#990000',
+        light: '#2A2B27',
+        dark: '#EDEAE8',
+      },
+      secondary: {
+        main: '#D9D9D9',
+      },
     }
   },
   plugins: [],
